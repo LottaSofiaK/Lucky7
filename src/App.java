@@ -25,7 +25,8 @@ public class App {
             System.out.println(number2);
             number3 = r.nextInt(11) + 1;
             System.out.println(number3);
-
+        
+        // Setting the terms.
             if (number1 == 7 && number2 == 7 && number3 == 7) {
                 money = money + 100;
                 System.out.println("Jackpot, you won the main prize 100 euros! Thank you for playing.");
