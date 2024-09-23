@@ -50,7 +50,8 @@ public class App {
             }
             System.out.println("You have " + money + " euros left. Do you wanna play again? If so, write Y and press Enter.");
             playAgain = in.nextLine();
-
+        
+        // Finishing the game. Displaying the amount of money the player won.
         } while (money > 0 && playAgain.equalsIgnoreCase("y"));
             System.out.println("Thank you for playing! You won " + money + " euros.");
             
