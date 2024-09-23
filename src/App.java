@@ -16,6 +16,7 @@ public class App {
         input = in.nextLine();
         int money = Integer.parseInt(input);
 
+        // Printing the random numbers.
         do {
             money = money-1;
             number1 = r.nextInt(11) + 1;
